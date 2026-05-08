@@ -16,8 +16,6 @@ function Header() {
             <Link to="/search">
                 <p className='font-semibold cursor-pointer hover:text-yellow-500'>Search</p>
             </Link>
-            <p className='font-semibold cursor-pointer hover:text-yellow-500'>Share</p>
-            <p className='font-semibold cursor-pointer hover:text-yellow-500'>Author</p>
         </div>
         <div className='flex gap-5 items-center'>
             <img src={personIcon} alt='Person icon' className='[filter:invert(55%)_sepia(80%)_saturate(1200%)_hue-rotate(5deg)_brightness(103%)_contrast(95%)] h-7'/>
