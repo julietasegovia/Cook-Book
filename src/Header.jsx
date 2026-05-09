@@ -20,7 +20,9 @@ function Header() {
         <div className='flex gap-5 items-center'>
             <img src={personIcon} alt='Person icon' className='[filter:invert(55%)_sepia(80%)_saturate(1200%)_hue-rotate(5deg)_brightness(103%)_contrast(95%)] h-7'/>
             <div className='flex gap-10'>
-                <p className='font-semibold cursor-pointer hover:text-yellow-500'>Log In</p>
+                <Link to="/login">
+                    <p className='font-semibold cursor-pointer hover:text-yellow-500'>Log In</p>
+                </Link>
                 <p className='font-semibold cursor-pointer hover:text-yellow-500'>Register</p>
             </div>
         </div>
