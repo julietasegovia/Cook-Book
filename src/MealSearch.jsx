@@ -26,7 +26,7 @@ export default function MealSearch() {
             {loading && <p className="text-center pt-10">Loading...</p>}
             {error && <p className="text-center pt-10">Error: {error}</p>}
 
-            <div className="pt-10 justify-center items-center grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16">
+            <div className="pt-10 justify-center items-center grid grid-cols-1 grid-cols-3 gap-16">
                 {data?.meals?.map((meal) => (
                     <div key={meal.idMeal} className="flex justify-center flex-col text-center items-center w-full hover:bg-gray-100 rounded-xl" onClick={() => navigate(`/meal/${meal.idMeal}`)}>
                         <h3 className="text-lg font-semibold">{meal.strMeal}</h3>
