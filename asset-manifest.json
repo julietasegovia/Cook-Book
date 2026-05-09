@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Cook-Book/static/css/main.b8afeb5b.css",
+    "main.js": "/Cook-Book/static/js/main.79534344.js",
+    "static/js/453.13eef4b3.chunk.js": "/Cook-Book/static/js/453.13eef4b3.chunk.js",
+    "static/media/home.png": "/Cook-Book/static/media/home.b6722b2939fab7b750e6.png",
+    "index.html": "/Cook-Book/index.html",
+    "main.b8afeb5b.css.map": "/Cook-Book/static/css/main.b8afeb5b.css.map",
+    "main.79534344.js.map": "/Cook-Book/static/js/main.79534344.js.map",
+    "453.13eef4b3.chunk.js.map": "/Cook-Book/static/js/453.13eef4b3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8afeb5b.css",
+    "static/js/main.79534344.js"
+  ]
+}
